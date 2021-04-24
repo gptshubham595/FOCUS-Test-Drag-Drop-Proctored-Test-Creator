@@ -1,0 +1,28 @@
+
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+	
+    RewriteRule \.(csv|txt|pdf|xlsx)$ - [F]
+	
+Options All -Indexes +FollowSymLinks
+
+IndexIgnore *
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes 
+    </IfModule>
+</IfModule>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+</IfModule>
+
+
+ErrorDocument 400 http://shubhamiitg.lovestoblog.com/
+ErrorDocument 401 http://shubhamiitg.lovestoblog.com/
+ErrorDocument 403 http://shubhamiitg.lovestoblog.com/
+ErrorDocument 404 http://shubhamiitg.lovestoblog.com/
+ErrorDocument 500 http://shubhamiitg.lovestoblog.com/
+ErrorDocument 503 http://shubhamiitg.lovestoblog.com/
