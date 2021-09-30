@@ -3,6 +3,7 @@
   ## PROBLEM
   
    - Realized problems of coaching institutes, unable to take tests during covid
+   - Test setups can also be done locally on xampp server https://www.apachefriends.org/download.html
    
    ## SOLUTION
    
