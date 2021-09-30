@@ -13,7 +13,7 @@
    
    ## STEPS
    
-   - Use infinityfree.net to get 3 free domains
+   - Using infinityfree.net one can get total of 3 free domains
    - 3 domains can be used as load balancer
    - A PHP based website solution, upload this on you website's cpanel
    - Upload pdf file to google drive
